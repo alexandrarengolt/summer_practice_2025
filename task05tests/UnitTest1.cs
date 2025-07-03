@@ -28,7 +28,7 @@ namespace task05tests
         }
 
         [Fact]
-        public void GetMethodParams_ReturnsMethodName()
+        public void GetMethodParams_ReturnsEmptyForMethodWithoutParams()
         {
             string methodname = "Method";
             var analyzer = new ClassAnalyzer(typeof(TestClass));
