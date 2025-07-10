@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\plugin_task10\plugin_task10.csproj" />
+  </ItemGroup>
+
 </Project>
